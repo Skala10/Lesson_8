@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'); 
+
+body{
+	font-family: "Lato", serif;
+	color: #424551;
+	line-height: 160%;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+main{
+margin-bottom: 25px;
+}
+
+.title{
+	color: #1E212C;
+}
+
+.about {
+	margin-bottom: 48px;
+}
+
+.about__container {
+}
+
+.main-text h1{
+	font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+margin-bottom: 40px;
+}
+
+.main-text{
+margin-bottom: 48px;
+}
+
+.list h2{
+	font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+margin-bottom: 24px;
+}
+
+.list li:not(:last-child){
+	margin-bottom: 4px;
+}
+
+.list li::before{
+content: "";
+background: url('../img/icons/ok.svg') 0 0 no-repeat;
+height: 16px;
+width: 16px;
+padding-left: 34px;
+}
+
+.curator {
+}
+
+.curator__container{
+
+}
+
+h3{
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+
+h4{
+	font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+	margin-bottom: 16px;
+}
+
+.subtitle{
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+
+.rating{
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+
+.rating li:not(:last-child){
+   margin-bottom: 4px;
+}
+
+.rating li::before{
+   content: "";
+	height: 15px;
+	width: 15px;
+	padding-left: 24px;
+}
+
+.star::before {
+	background: url('../img/icons/star.svg') 0 0 no-repeat;
+}
+.play::before{
+	background: url('../img/icons/play.svg') 0 0 no-repeat
+}
+.people::before{
+	background: url('../img/icons/people.svg') 0 0 no-repeat
+}
+
+
+/* ================================== FOOTER ========================================== */
+.footer {
+}
+.footer__container {
+}
+
+.hover *:not(:last-child) {
+margin-right: 24px;
+}
+
+.hover{
+	color: #424551;
+	margin-bottom: 30px;
+}
+.hover a{
+	display: inline-block;
+}
+
+.facebook {
+	background: url('../img/footer/Facebook.svg') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+}
+
+.facebook:hover{
+	background: url('../img/footer/Facebook\ \(1\).svg');
+}
+
+.behance {
+	background: url('../img/footer/behance.svg') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+}
+
+.behance:hover{
+	background: url('../img/footer/behance\ \(1\).svg');
+}
+
+.twitter {
+	background: url('../img/footer/Twitter.svg') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+}
+
+.twitter:hover{
+	background: url('../img/footer/Twitter\ \(1\).svg');
+}
+
+.linkedin {
+	background: url('../img/footer/Linked-In.svg') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+}
+
+.linkedin:hover{
+	background: url('../img/footer/Linked-In\ \(1\).svg');
+}
+
+
+
+.buttons {
+	margin-bottom: 30px;
+}
+
+.btn {
+	padding: 15px 30px;
+	background-color: #ff3f3a;
+	border-radius: 5px;
+	box-shadow:  2px 5px 16px 0px #81201d;
+	color: white;
+	display: inline-block;
+}
+
+.buttons a:not(:last-child){
+	margin-right: 24px;
+}
+
+
+.btn1:active {
+	box-shadow: inset -1px 3px 8px 5px #ff453e;
+}
+
+.btn2:focus{
+	padding: 20px 35px;
+}
+
+.btn3:visited{
+	background-color: white;
+	color: #ff3f3a;
+}
+
+.training-list{
+	padding-bottom: 30px;
+}
+
+.before::before{
+	content: '';
+	background: url('../img/smile.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
+
+.before:hover::before{
+	content: '';
+	background: url('../img/crying.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+}
+
+
+
+
